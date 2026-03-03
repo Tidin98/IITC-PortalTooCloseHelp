@@ -5,7 +5,7 @@
 // @author lokpro
 // @updateURL  https://github.com/Tidin98/IITC-PortalTooCloseHelp/raw/refs/heads/master/IITC_tooCloseHelper.user.js
 // @downloadURL  https://github.com/Tidin98/IITC-PortalTooCloseHelp/raw/refs/heads/master/IITC_tooCloseHelper.user.js
-// @version     1.9.1
+// @version     1.9.2
 // @grant       none
 // ==/UserScript==
 
@@ -81,6 +81,8 @@ tch.addCustomPoint = function(coord, meter, options, shouldSave) {
 	var mobileIcon = L.divIcon({
 		className: '',
 		html: '<div style="position:relative;width:0;height:0">' +
+			'<div style="position:absolute;left:-6px;top:-0.25px;width:12px;height:0.5px;background:#000;transform:rotate(30deg);transform-origin:center center"></div>' +
+			'<div style="position:absolute;left:-6px;top:-0.25px;width:12px;height:0.5px;background:#000;transform:rotate(-30deg);transform-origin:center center"></div>' +
 			'<div style="position:absolute;left:-1.5px;top:-68px;width:3px;height:68px;background:#2255bb;box-shadow:0 0 3px rgba(0,0,0,0.4)"></div>' +
 			'<div style="position:absolute;left:-12px;top:-80px;width:20px;height:20px;border-radius:50%;background:#2255bb;border:2px solid #fff;box-shadow:0 0 4px rgba(0,0,0,0.6)"></div>' +
 			'</div>',
